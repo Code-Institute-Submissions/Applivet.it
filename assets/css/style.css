@@ -11,7 +11,9 @@ body {
 }
 
 header {
-    line-height: 75px;
+    height: 100px;
+    background-color: #273D56;
+    color: white;
 }
 
 header a {
@@ -21,4 +23,25 @@ header a {
 header ul {
     float:right;
     list-style-type: none; 
+}
+
+.three-cards {
+
+}
+
+#first-card {
+    float:left;
+    height: 400px;
+    width: 33%;
+}
+
+#second-card {
+    height: 400px;
+    width: 33%;
+}
+
+#third-card {
+    float: right;
+    height: 400px;
+    width: 33%;
 }
