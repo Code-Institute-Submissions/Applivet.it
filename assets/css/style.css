@@ -12,14 +12,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#section-title {
-    color: #213140;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 52px;
-    padding: 10% 0 7%;
-}
-
 header {
     clear:both;
     color: white;
@@ -32,16 +24,17 @@ header {
 
 header a {
     float: right;
-    margin: 3%;
+    margin: 2%;
 }
 
 header ul {
     list-style-type: none; 
-    margin: 1% 6% 1%;
+    margin: 1% 5% 1%;
 }
 
 svg {
     position:relative;
+    clear: both;
     top: 150px;
     width: 100%;
     height: 100px;
@@ -50,6 +43,7 @@ svg {
 
 #header-div {
     position: fixed;
+    clear: both;
     width:100%;
     background-color: #213140;
 }
@@ -80,7 +74,7 @@ svg {
     border-radius: 5px;
     background-color: #f2f2f2;
     clear:both;
-    height: 650px;
+    height: 600px;
     margin-top: 20px;
     text-align: center;
 }
@@ -88,14 +82,10 @@ svg {
 .card {
     border-radius: 5px;
     margin: 30px auto;
-    width: 425px;
+    width: 380px;
     cursor: pointer;
     transition: 0.4s;
-}
-
-.cards {
-    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
-    width: 325px;
+    box-shadow: 5px 5px 5px 3px rgba(0,0,0,0.25);
 }
 
 .card h3, p {
@@ -119,11 +109,10 @@ svg {
 .card button {
     height: 8%;
     text-transform: uppercase;
-    width: 90%;
+    width: 70%;
     background-color: #29AB87;
     color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
+    padding: 14px 10px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -139,11 +128,13 @@ svg {
     background-color: #213140;
     text-align: center;
     color: #213140;
-    padding: 5%;
+    padding: 2%;
+    margin-top: 5%;
 }
 
-
 .dove p {
+    background-color: #213140;
+    color:#ffffff; 
     padding: 0%;
     font-size: 20px; 
     font-weight: 100;
@@ -155,8 +146,20 @@ svg {
 
 /**------------------tipi_interventi**/
 
+#section-title {
+    color: #213140;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 52px;
+    padding: 5% 0 1%;
+}
+
+.cards {
+    box-shadow: 5px 5px 10px 7px rgba(0,0,0,0.25);
+    width: 325px;
+}
+
 .tipi_interventi {
-    border:solid 2px #29AB87;
     z-index: 1;
     width: 100%;
     display: flex;
@@ -164,7 +167,6 @@ svg {
 }
 
 .tipi_interventi div {
-    border:solid 2px #29AB87;
     clear:both;
     height: 250px;
     margin-top: 20px;
@@ -177,31 +179,30 @@ svg {
     padding-bottom: 1%;
 }
 
-#tipi_interventi button{
-    color:#213140;
-    background-color: #29AB87;
-    box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.15);
-    padding: 1% 2%;
-    border-radius: 40px 40px 40px 40px;
-    text-align: center;
-    text-transform: uppercase;
-    margin-left: 45%;
-    margin-bottom: 10%;
+.soddisfiamo {
+    background-color: #f2f2f2;
 }
 
-#tipi_interventi button:hover {
-    transform: scale(0.9, 0.9);
-    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
-    -5px -5px 30px 15px rgba(0,0,0,0.22);
-    background-color: #ffffff;
-    color: #29AB87;
+.soddisfiamo button{
+    background-color: #29AB87;
+    color: white;
+    padding: 14px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1% 46% 3%;
+}
+
+.soddisfiamo button:hover {
+    background-color: #239072;
 }
 
 /**---------------------servizi-dedicati**/
 
 #servizi_dedicati h1 {
     color: #213140;
-    background-color: #f2f2f2;
     padding: 5%; 
 }
 
