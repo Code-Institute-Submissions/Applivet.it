@@ -75,14 +75,9 @@ svg {
     background-color: #f2f2f2;
     clear:both;
     height: 600px;
-    margin-top: 20px;
-    text-align: center;
-}
-
-.card {
-    border-radius: 5px;
-    margin: 30px auto;
     width: 380px;
+    margin: 30px auto;
+    text-align: center;
     cursor: pointer;
     transition: 0.4s;
     box-shadow: 5px 5px 5px 3px rgba(0,0,0,0.25);
@@ -154,11 +149,6 @@ svg {
     padding: 5% 0 1%;
 }
 
-.cards {
-    box-shadow: 5px 5px 10px 7px rgba(0,0,0,0.25);
-    width: 325px;
-}
-
 .tipi_interventi {
     z-index: 1;
     width: 100%;
@@ -169,14 +159,14 @@ svg {
 .tipi_interventi div {
     clear:both;
     height: 250px;
-    margin-top: 20px;
     text-align: center;
-}
-
-#tipi_interventi p {
-    color: #213140;
-    text-align: justify; 
-    padding-bottom: 1%;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 325px;
+    cursor: pointer;
+    transition: 0.4s;
+    box-shadow: 5px 5px 5px 3px rgba(0,0,0,0.25);
+    background-color: #f2f2f2;
 }
 
 .soddisfiamo {
@@ -184,6 +174,7 @@ svg {
 }
 
 .soddisfiamo button{
+    clear: both;
     background-color: #29AB87;
     color: white;
     padding: 14px 10px;
@@ -201,13 +192,7 @@ svg {
 
 /**---------------------servizi-dedicati**/
 
-#servizi_dedicati h1 {
-    color: #213140;
-    padding: 5%; 
-}
-
 .servizi_dedicati {
-    border:solid 2px #29AB87;
     z-index: 1;
     width: 100%;
     display: flex;
@@ -215,11 +200,14 @@ svg {
 }
 
 .servizi_dedicati div {
-    border:solid 2px #29AB87;
     clear:both;
-    height: 250px;
-    margin-top: 20px;
+    height: 100%;
     text-align: center;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 325px;
+    cursor: pointer;
+    background-color: #f2f2f2;
 }
 
 .dove-operiamo {
@@ -227,29 +215,50 @@ svg {
     flex-wrap: wrap;
 }
 
+.dove-operiamo div {
+    clear:both;
+    height: 100%;
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 325px;
+    cursor: pointer;
+    background-color: #f2f2f2;
+}
+
 /**-----------------------contattaci**/
 
-#contattaci h1, p {
+#contattaci > h1, p {
     background-color: #f2f2f2;
     color:#213140;
     text-align: center;
+    padding-top: 1%;
 }
 
-#contact-section {
+.contact-section {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.contact-form {
+#contact-form {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-    margin:5%;
+    margin: 5% auto;
+    text-align: left;
+    width: 60%;
 }
 
 .es-richieste {
-
+    clear: both;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    text-align: center;
+    margin: 5% auto;
+    width: 20%;
+    padding: 10px;
 }
 
 input[type=text], input[type=email], input[type=phone], select {
