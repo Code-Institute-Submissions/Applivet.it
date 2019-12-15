@@ -52,9 +52,30 @@
     </section>
     <section>
         <div class="dove">
-            <p>Operiamo in tutta <strong>MILANO</strong> e <strong>PROVINCIA</strong> 
-            inclusa tutta la <strong>PROVINCIA</strong> di <strong>MONZA</strong> e <strong>BRIANZA</strong></p> 
-            <p>e su richiesta anche in altre zone della Lombardia e di Italia</p>  
+        <h1 id="section-title">Dove operiamo</h1>
+            <p>Siamo attivi a <strong>MILANO</strong> e <strong>PROVINCIA</strong> 
+            inclusa la <strong>PROVINCIA</strong> di <strong>MONZA</strong> e <strong>BRIANZA</strong></p> 
+            <p>su richiesta anche in altre zone della Lombardia e di Italia</p>  
+        </div>
+        <div class="dove-operiamo">
+            <div>
+                <h4 class="collapsible">Milano ▾</h4>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+            <div>
+                <h4 class="collapsible">Provincia ▾</h4>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consequuntur accusantium quibusdam corrupti illo. Ad rerum, provident dignissimos quibusdam maiores consequatur numquam perferendis quae commodi reprehenderit voluptatem rem sunt dolorem!</p>
+                </div>
+            </div>
+            <div>
+                <h4 class="collapsible">Brianza ▾</h4>
+                <div class="content">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid amet alias facere reiciendis maiores laboriosam eum recusandae facilis blanditiis molestias ratione, accusamus beatae quos quae? Neque nesciunt consequuntur vero corrupti.</p>
+                </div>
+            </div>
         </div> 
     </section>
 
@@ -98,107 +119,105 @@
 
             </div>
         </div>
-        <div class="soddisfiamo">
-        <p style="padding-bottom: 1%">Soddisfiamo le vostre richieste specifiche con interventi specializzati e personalizzati con posa e messa in opera di un vasto assordimento di prodotti di qualità,
-        offriamo disponibilità immediata con prodotti e servizi su misura per le vostre esigenze.
-        Chiedi un preventivo o semplicimente informazioni.</p>
-        <button>Contattaci</button>  
-        </div>  
     </section>
-
     <section>
-        <h1 id="section-title">Servizi dedicati e su misura</h1>
+        <div class="soddisfiamo">
+            <h1 id="section-title">Servizi dedicati su misura</h1>
+            <p style="padding: 0 5% 20px">Soddisfiamo le vostre richieste specifiche con interventi specializzati e personalizzati con posa e messa in opera di un vasto assordimento di prodotti di qualità,
+            offriamo disponibilità immediata con prodotti e servizi su misura per le vostre esigenze.
+            Chiedi informazioni o un preventivo gratuito.</p>  
+        </div> 
         <div class="servizi_dedicati">
-            <div>
-                <p>per privati</p>
-            </div>
-            <div>
-                <p>per aziende e commercio</p>
-            </div>
-            <div>
-                <p>per lavorazioni in vetreria</p>
+        <div>
+            <h4 class="collapsible">Per privati ▾</h4>
+            <div class="content">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam facere, ullam cum vero accusamus culpa quis fugit dolorum sit iusto corporis praesentium temporibus. Alias modi sunt voluptate quibusdam commodi odio.</p>
             </div>
         </div>
-        <h1 id="section-title">Dove operiamo</h1>
-        <div class="dove-operiamo">
-            <div>
-                <h4 class="collapsible">Milano ▾</h4>
-                <div class="content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            </div>
-            <div>
-                <h4>Provincia ▾</h4>
-                
-            </div>
-            <div>
-                <p>Brianza </p>
+        <div>
+            <h4 class="collapsible">Aziende e commercio ▾</h4>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia itaque iusto deserunt sint magnam tenetur maxime dolore neque ab similique alias nesciunt in, ut, modi impedit ullam iure. Dicta, dignissimos!</p>
             </div>
         </div>
-        <script>
-            var coll = document.getElementsByClassName("collapsible");
-            var i;
-
-            for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                content.style.display = "none";
-                } else {
-                content.style.display = "block";
-                }
-            });
-            }
-        </script>
-
-
+        <div>
+            <h4 class="collapsible">Lavorazioni in vetreria ▾</h4>
+            <div class="content">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima repudiandae explicabo maxime vitae fugit eveniet numquam ut nihil eos, at distinctio dolorum quae laboriosam quas illum, praesentium culpa quidem dolorem.</p>
+            </div>
+        </div>
+        </div> 
     </section>
-
     <section id="contattaci">
-        <h1 id="section-title">Contattaci</h1>
-        <p>Per info o per un preventivo gratuito e senza impegno!</p>
-    </section>
+        <h1 id="section-title" style="padding-top: 5%">Lascia un messaggio</h1>
+        <p style="padding: 0 5% 20px">Per info o per un preventivo on-line gratuito e senza impegno!</p>
 
-    <section class="contact-section">
-        <div id="contact-form">
-            <form action="(php_stuff)">
-                <label for="name">Nome o Azienda</label>
-                <input type="text" id="name" name="firstname" placeholder="nome..">
+        <div class="contact-section">
+            <div id="contact-form">
+                <form action="(php_stuff)">
+                    <label for="name">Nome o Azienda</label>
+                    <input type="text" id="name" name="firstname">
 
-                <label for="email">Indirizzo email</label>
-                <input type="email" id="email" name="email" placeholder="email..">
+                    <label for="email">Indirizzo email</label>
+                    <input type="email" id="email" name="email">
 
-                <label for="phone">Numero di telefono</label>
-                <input type="phone" id="phone" name="phone" placeholder="...">
+                    <label for="phone">Numero di telefono</label>
+                    <input type="phone" id="phone" name="phone">
 
-                <label for="questions">Richiesta</label>
-                <input type="text" id="question" name="text" placeholder="...">
+                    <label for="questions">Richiesta</label>
+                    <input type="text" id="question" name="text">
 
-                <input type="submit" value="Submit">
-            </form>
-        </div>
-        <div class="es-richieste">
-            <div>
-                <p>Preventivo vetrocamera</p>
+                    <input type="submit" value="Submit">
+                </form>
             </div>
-            <div>
-                <p>Installazione gattaiola</p>
+            <div class="es-richieste">
+                <h2>Esempi di richieste</h2>
+                <div>
+                    <h4 class="collapsible">Preventivo vetrocamera ▾</h4>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="collapsible">Installazione gattaiola ▾</h4>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="collapsible">Sostituzione tapparelle ▾</h4>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
             </div>
-            <div>
-                <p>Sostituzione tapparelle</p>
-            </div> 
         </div>
     </section>
 
     <footer>
-        <div class="address" style="padding-top: 2%">
+        <div class="address" style="padding-top: 3%">
             <p>APPLIVET</p> 
             <p>Via Riccardo  Pitteri, 23 - Milano</p>
             <p>02/56940385 applivet@gmail.it</p>
-            <p>P.IVA 0809478285920</p>
+            <p>P.IVA 1109478285920</p>
         </div>
         <p id="author" style="padding-top: 2%">@copyright 2020 APPLIVET - realizzazione sito CIRCECO.org</p>
-    </footer>    
+    </footer> 
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+            content.style.display = "none";
+            } else {
+            content.style.display = "block";
+            }
+        });
+        }
+    </script>  
 </body>
 </html>

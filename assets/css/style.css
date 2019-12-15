@@ -13,7 +13,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
+p, h4, h2 {
     padding: 5%;
 }
 
@@ -36,14 +36,15 @@ header {
     background-color: #213140;
     display: flex;
     flex-wrap: wrap;
+    height: 150px;
 }
 
 header a {
-    margin: 2% 0 1% 3%;
+    margin: 2% 0 0 3%;
 }
 
 header h2 {
-    margin: 2% auto;
+    margin: 0 auto;
 }
 
 header ul {
@@ -131,7 +132,6 @@ svg {
 
 .cards:hover {
     transform: scale(0.9, 0.9);
-    box-shadow: 5px 5px 5px 3px rgba(0,0,0,0.25);
     background-color: #ffffff;
     color: #29AB87;
 }
@@ -155,17 +155,17 @@ svg {
 /**----------------first-blue-bar**/
 
 .dove {
-    background-color: #213140;
+    background-color:#f2f2f2;
     text-align: center;
     color: #213140;
-    padding: 5%;
-    margin-top: 5%;
+    padding: 2% 0 5%;
+    margin: 5% 5% 2%;
 }
 
 .dove p {
-    background-color: #213140;
-    color:#ffffff; 
-    padding: 0%;
+    background-color:#f2f2f2;
+    color:#213140; 
+    padding: 0 20px;
     font-size: 20px; 
     font-weight: 100;
 }
@@ -181,7 +181,7 @@ svg {
     text-align: center;
     text-transform: uppercase;
     font-size: 52px;
-    padding: 5% 0 1%;
+    padding: 3% 0 1%;
 }
 
 .tipi_interventi {
@@ -206,7 +206,8 @@ svg {
 .soddisfiamo {
     background-color: #f2f2f2;
     text-align: center; 
-    margin-top: 5%;
+    margin: 5% 5% 2%;
+
 }
 
 .soddisfiamo button{
@@ -238,7 +239,7 @@ svg {
     height: 100%;
     text-align: center;
     border-radius: 5px;
-    margin: 20px auto;
+    margin: 20px auto 5%;
     width: 325px;
     cursor: pointer;
     background-color: #f2f2f2;
@@ -247,6 +248,7 @@ svg {
 .dove-operiamo {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 
 .dove-operiamo div {
@@ -260,34 +262,23 @@ svg {
     background-color: #f2f2f2;
 }
 
-.collapsible {
-    cursor: pointer;
-    width: 100%;
-    border: none;
-    outline: none;
-
-}
-
 .active, .collapsible:hover {
     color: #239072;
     border: none;
 }
 
 .content {
-    padding: 50px 18px;
     display: none;
     overflow: hidden;
-    background-color: rgb(4, 98, 94, 0.05);
-    text-align: justify;
-    box-shadow: 0 8px 8px 0px rgba(0, 0, 0, 0.19);
 }
 
 /**-----------------------contattaci**/
 
-#contattaci > p {
+#contattaci {
     color:#213140;
     text-align: center;
-    padding-top: 1%;
+    background-color: #f2f2f2;
+    margin: 5%;
 }
 
 .contact-section {
@@ -299,7 +290,7 @@ svg {
 #contact-form {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 5% 0 5%;
     margin: auto;
     margin-right: 1%; 
     text-align: left;
@@ -314,8 +305,23 @@ svg {
     text-align: center;
     margin: auto;
     margin-left: 1%;
-    width: 20%;
-    padding: 10px;
+    width: 30%;
+}
+
+@media (max-width:765px) {
+    .contact-section {
+        display: inline;
+        flex-wrap: wrap;
+    }
+        
+    #contact-form {
+        margin: auto;
+        width: 80%;
+    } 
+    .es-richieste {
+        margin: auto;
+        width: 80%;
+    }   
 }
 
 input[type=text], input[type=email], input[type=phone], select {
@@ -334,8 +340,9 @@ input[type=text], input[type=email], input[type=phone], select {
 }
 
 input[type=submit] {
-    width: 100%;
+    width: 100px;
     background-color: #29AB87;
+    font-size: 16px;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -354,7 +361,6 @@ input[type=submit]:hover {
 footer {
     text-align: center;
     background-color: #f2f2f2;
-    margin-top: 5%;
 }
 
 .address p {
