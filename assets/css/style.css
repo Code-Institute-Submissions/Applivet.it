@@ -43,6 +43,15 @@ header a {
     margin: 2% 0 0 3%;
 }
 
+.logo {
+    background: url("../img/logo.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: auto;
+    width: auto;
+}
+
 header h2 {
     margin: 0 auto;
 }
