@@ -6,18 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Applivet vetraio</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d32fba75b2.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <div id="header-div">
+        <div class="header-div">
         <a href="index.html">
             <h1>APPLIVET logo</h1>
         </a>
-        <ul>
-            <h2>Vetraio Milano e Brianza</h2>
-            <li>phone number</li>
-            <li>contact form</li>
-            <li>email address</li>
+        <h2>Vetraio Milano e Brianza</h2>
+        <ul id="contatti">
+            <li>numero di telefono<i class="fas fa-phone"></i></li>
+            <li>lascia un messaggio<i class="fas fa-comments"></i></li>
+            <li>indirizzo email<i class="far fa-envelope"></i></li>
         </ul>
         </div>
         <svg viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -50,8 +52,8 @@
     </section>
     <section>
         <div class="dove">
-            <p>Operiamo in tutta <strong>MILANO</strong> e <strong>PROVINCIA<strong></p> 
-            <p>inclusa tutta la <strong>PROVINCIA</strong> di <strong>MONZA</strong> e <strong>BRIANZA</strong></p> 
+            <p>Operiamo in tutta <strong>MILANO</strong> e <strong>PROVINCIA</strong> 
+            inclusa tutta la <strong>PROVINCIA</strong> di <strong>MONZA</strong> e <strong>BRIANZA</strong></p> 
             <p>e su richiesta anche in altre zone della Lombardia e di Italia</p>  
         </div> 
     </section>
@@ -97,7 +99,7 @@
             </div>
         </div>
         <div class="soddisfiamo">
-        <p>Soddisfiamo le vostre richieste specifiche con interventi specializzati e personalizzati con posa e messa in opera di un vasto assordimento di prodotti di qualità,
+        <p style="padding-bottom: 1%">Soddisfiamo le vostre richieste specifiche con interventi specializzati e personalizzati con posa e messa in opera di un vasto assordimento di prodotti di qualità,
         offriamo disponibilità immediata con prodotti e servizi su misura per le vostre esigenze.
         Chiedi un preventivo o semplicimente informazioni.</p>
         <button>Contattaci</button>  
@@ -120,15 +122,37 @@
         <h1 id="section-title">Dove operiamo</h1>
         <div class="dove-operiamo">
             <div>
-                <p>scroll down menu Milano</p>
+                <h4 class="collapsible">Milano ▾</h4>
+                <div class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
             </div>
             <div>
-                <p>scroll down menu Provincia</p>
+                <h4>Provincia ▾</h4>
+                
             </div>
             <div>
-                <p>scroll down menu Brianza</p>
+                <p>Brianza </p>
             </div>
         </div>
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                content.style.display = "none";
+                } else {
+                content.style.display = "block";
+                }
+            });
+            }
+        </script>
+
+
     </section>
 
     <section id="contattaci">
@@ -168,11 +192,13 @@
     </section>
 
     <footer>
-        <p>APPLIVET</p> 
-        <p>Via Riccardo  Pitteri, 23 - Milano</p>
-        <p>02/56940385 applivet@gmail.it</p>
-        <p>P.IVA 0809478285920</p>
-        <p id="author">@copyright 2020 - realizzazione sito CIRCECO.org</p>
+        <div class="address" style="padding-top: 2%">
+            <p>APPLIVET</p> 
+            <p>Via Riccardo  Pitteri, 23 - Milano</p>
+            <p>02/56940385 applivet@gmail.it</p>
+            <p>P.IVA 0809478285920</p>
+        </div>
+        <p id="author" style="padding-top: 2%">@copyright 2020 APPLIVET - realizzazione sito CIRCECO.org</p>
     </footer>    
 </body>
 </html>
