@@ -95,24 +95,7 @@ svg {
     z-index: -1;
 }
 
-#sidebar i { 
-    visibility: hidden;
-    width: 40px;
-    height: 30px;
-    padding: 30% 1% 0 1%;
-    margin-bottom: 1px;
-    text-align: center;
-    vertical-align: middle;
-    background: #29AB87;
-    cursor: pointer;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-    box-shadow: 0 8px 8px 0px rgba(0, 0, 0, 0.19);
-}
-
-@media (max-width:765px) {
+@media (max-width:900px) {
     header ul {
         visibility: hidden;
         top:0;
@@ -122,12 +105,17 @@ svg {
         text-align: center;
         float: unset;
     }
-    #sidebar {
+    #contatti i {
         visibility: visible;
+    }
+
+    #contatti {
         position: fixed;
-        top: 50%;
-        right: 0%;
+        top: 30%;
+        right: -5px;
+    }
 }
+
 
 /**------------------------three-cards**/
 
