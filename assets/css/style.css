@@ -126,7 +126,7 @@ svg {
 }
 
 
-/**------------------------three-cards**/
+/**------------------------THREE CARDS**/
 
 .three-cards {
     z-index: 0;
@@ -143,7 +143,6 @@ svg {
     width: 380px;
     margin: 30px auto;
     text-align: center;
-    cursor: pointer;
     transition: 0.4s;
     box-shadow: 5px 5px 5px 3px rgba(0,0,0,0.25);
 }
@@ -156,12 +155,6 @@ svg {
 .card img {
     width: 100%;
     height: 50%; 
-}
-
-.cards:hover {
-    transform: scale(0.9, 0.9);
-    background-color: #ffffff;
-    color: #29AB87;
 }
 
 .card button {
@@ -181,7 +174,7 @@ svg {
     background-color: #239072;
 }
 
-/**----------------first-blue-bar**/
+/**----------------DOVE OPERIAMO**/
 
 .dove {
     background-color:#f2f2f2;
@@ -203,7 +196,7 @@ svg {
     font-size: 26px;
 }
 
-/**------------------tipi_interventi**/
+/**------------------TIPI DI INTERVENTI**/
 
 #section-title {
     color: #213140;
@@ -227,10 +220,31 @@ svg {
     border-radius: 5px;
     margin: 20px auto;
     width: 325px;
-    cursor: pointer;
     transition: 0.4s;
     background-color: #f2f2f2;
 }
+
+.cards:hover {
+    transform: scale(0.9, 0.9);
+}
+
+.tipi_interventi a, .tipi_interventi p {
+    cursor: pointer;
+    position:inherit;
+    text-align: center;
+    text-decoration: none; 
+    color: #213140;
+    background: rgba(255, 255, 255, 0.7)
+}
+
+.one {
+    background: url(../img/unsplash.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+}
+
+/**------------------SODDISFIAMO SERVIZI DEDICATI**/
 
 .soddisfiamo {
     background-color: #f2f2f2;
@@ -253,8 +267,6 @@ svg {
 .soddisfiamo button:hover {
     background-color: #239072;
 }
-
-/**---------------------servizi-dedicati**/
 
 .servizi_dedicati {
     z-index: 1;
@@ -353,7 +365,7 @@ svg {
     }   
 }
 
-input[type=text], input[type=email], input[type=phone], select {
+input[type=text], input[type=email], input[type=phone], textarea {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
