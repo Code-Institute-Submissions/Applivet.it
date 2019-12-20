@@ -17,10 +17,6 @@ p, h4, h2 {
     padding: 5%;
 }
 
-h1 {
-    font-weight: 900;
-}
-
 /**--------------------header**/
 
 header {
@@ -41,10 +37,6 @@ header {
     flex-wrap: wrap;
     height: 130px;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
-}
-
-header a {
-    margin: 1% 0 0 2%;
 }
 
 .logo {
@@ -163,8 +155,8 @@ header ul {
     background-color: #f2f2f2;
     text-align: center;
     color: #213140;
-    padding: 2%;
-    margin: 2% 10%;
+    padding: 0 2% 5%;
+    margin: 0 10%;
 }
 
 #dove p {
@@ -325,22 +317,6 @@ header ul {
     width: 30%;
 }
 
-@media (max-width:765px) {
-    .contact-section {
-        display: inline;
-        flex-wrap: wrap;
-    }
-        
-    #contact-form {
-        margin: auto;
-        width: 80%;
-    } 
-    .es-richieste {
-        margin: auto;
-        width: 80%;
-    }   
-}
-
 input[type=text], input[type=email], input[type=phone], textarea {
     width: 100%;
     padding: 12px 20px;
@@ -393,6 +369,47 @@ footer {
     font-size: 10px;
 }
 
+/**----------------------------second-page**/
+
+#description-title {
+    color: #213140;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 52px;
+    padding: 20% 0 30%;
+}
+
+.imp-pag {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo {
+    margin: 5% auto;
+    width: 30%; 
+    height: 250px;
+    opacity: unset;
+}
+
+.description {
+    background-color: #f2f2f2; 
+    margin: 5% auto;
+    width: 70%; 
+}
+
+.description-section h2 {
+    color: #ffffff;
+    padding: 0.5%; 
+    text-align: right;
+    background-color: #213140;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+
+/**---------------------------media**/
+
 @media (max-width:900px) {
     header, .header-div {
         height: 80px;
@@ -438,5 +455,31 @@ footer {
     
     .one {
         opacity: unset;
+    }
+}
+
+@media (max-width:765px) {
+    .contact-section {
+        display: inline;
+        flex-wrap: wrap;
+    }
+        
+    #contact-form {
+        margin: auto;
+        width: 80%;
+    } 
+    .es-richieste {
+        margin: auto;
+        width: 80%;
+    }
+
+    .description {
+        width: 97.5%; 
+        margin: 0 auto 10%;  
+    }
+
+    .photo {
+        width: 97.5%;
+        margin: 10% auto 0;
     }
 }
