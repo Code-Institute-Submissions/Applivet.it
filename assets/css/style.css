@@ -400,7 +400,7 @@ footer {
 
 .description-section h2 {
     color: #ffffff;
-    padding: 0.5%; 
+    padding: 0.5% 3%; 
     text-align: right;
     background-color: #213140;
     font-weight: 200;
@@ -440,13 +440,17 @@ footer {
 
     #contatti {
         position: fixed;
-        top: 30%;
+        top: 50%;
         right: 0%;
         box-shadow: -5px 8px 8px 0px rgba(0, 0, 0, 0.19);
     }
 
-    #section-title {
+    #section-title, #description-title {
         font-size: 26px !important;
+    }
+
+    #per {
+        font-size: 14px;
     }
 
     p, strong {
@@ -455,6 +459,14 @@ footer {
     
     .one {
         opacity: unset;
+    }
+
+    .address p {
+        font-size: 12px !important;
+    }
+
+    #author {
+        font-size: 8px !important;
     }
 }
 
