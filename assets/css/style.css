@@ -48,7 +48,7 @@ header {
     background: url("../img/applivet_logo-bianco.jpg");
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 250px 100px;
+    background-size: 280px 100px;
     height: 80px;
     width: 300px;
     margin: 0 0 1% 2%;
@@ -510,7 +510,7 @@ footer {
     }
 
     .logo {
-        background-size: 150px 60px;
+        background-size: 180px 60px;
     }
 }
 
@@ -525,6 +525,7 @@ footer {
     }
 
     header h2 {
+        margin: 0 auto 2%;
         padding: 0;
         font-size: 18px;
     }
