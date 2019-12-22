@@ -45,18 +45,18 @@ header {
 }
 
 .logo {
-    background: url("../img/applivet-logo.jpg");
+    background: url("../img/applivet_logo-bianco.jpg");
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 150px 50px;
+    background-size: 250px 100px;
     height: 80px;
     width: 300px;
-    margin-left: 2%;
+    margin: 0 0 1% 2%;
 }
 
 header h2 {
     font-size: 28px;
-    margin: 0 auto;
+    margin: 1% auto;
     padding: 2% 5% 2% 0;
 }
 
@@ -437,11 +437,6 @@ footer {
         height: 50px;
     }
 
-    header h2 {
-        padding: 0;
-        font-size: 18px;
-    }
-
     header ul {
         visibility: hidden;
         margin: 0;
@@ -513,9 +508,13 @@ footer {
     #bottom_svg, #top_svg {
         height: 100px;
     }
+
+    .logo {
+        background-size: 150px 60px;
+    }
 }
 
-@media (max-width:500px) {
+@media (max-width:650px) {
 
     .servizi_dedicati div {
         width: 100%;
@@ -524,4 +523,10 @@ footer {
     .dove-operiamo div {
         width: 100%;
     }
+
+    header h2 {
+        padding: 0;
+        font-size: 18px;
+    }
+
 }
