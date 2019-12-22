@@ -25,7 +25,7 @@ The website is divided into two pages, one main page and a secondary page. The m
 ### Skeleton 
 
 The scetch was done with Adobe XD 
-![Applivet sketch](./assets/img/applivet_sketch.png)
+[Applivet sketch](./assets/img/applivet_sketch.png)
 
 ### Surface 
 
