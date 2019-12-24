@@ -52,6 +52,11 @@ header {
     height: 80px;
     width: 300px;
     margin: 0 0 1% 2%;
+    transition: 0.4s; 
+}
+
+.logo:hover {
+    transform: scale(0.9, 0.9);
 }
 
 header h2 {
@@ -84,8 +89,12 @@ header ul {
 
 #icon-contact i:hover {
     background-color: #239072; 
-    color:#f2f2f2; 
-    cursor: pointer;  
+    color: #ffffff; 
+    cursor: pointer; 
+}
+
+#contatti i:hover {
+    transform: scale(0.9, 0.9);
 }
 
 /**------------------------THREE CARDS**/
@@ -108,31 +117,58 @@ header ul {
     transition: 0.4s;
 }
 
-.card h3 {
+.three-cards h3 {
     font-size: 18px;
     color:#213140;
     padding: 5%;
 }
 
-.card img {
+#card-one {
+    background-image: url(../img/vetro-rotto.png);
     width: 100%;
-    height: 40%; 
+    height: 200px;
+    margin: 0;
+    border-radius: 0;
 }
 
-.card button {
+#card-two {
+    background-image: url(../img/vetro-rotto.png);
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    border-radius: 0;
+}
+
+#card-three {
+    background-image: url(../img/vetro-rotto.png);
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    border-radius: 0;
+}
+
+#to-contact {
     height: 30px;
-    font-size: 10px;
     text-transform: uppercase;
     width: 50%;
     background-color: #29AB87;
-    color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
-.card button:hover {
+.three-cards a {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.three-cards button:hover {
     background-color: #239072;
+    transform: scale(0.9, 0.9);
 }
 
 /**----------------DOVE OPERIAMO**/

@@ -68,7 +68,7 @@ Acknoledgement are listed below:
 
 
 ### Acknowledgements 
-The several hover effects, the JavaScript scroll-down effect and many others hints were inspired by (https://www.w3schools.com/) 
+The several hover effects, the JavaScript scroll-down effect and many others hints (including the polygons) were inspired and learned by (https://www.w3schools.com/) 
 Icons for contact are from (https://fontawesome.com)
 Font style is from (https://fonts.google.com)
 
