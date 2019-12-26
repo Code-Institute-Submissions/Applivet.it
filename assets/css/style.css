@@ -316,7 +316,7 @@ header ul {
     background: url(../img/arredamento.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center; 
+	background-position: bottom; 
     z-index: -2;
 }
 
@@ -324,7 +324,7 @@ header ul {
     background: url(../img/box-doccia.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center; 
+	background-position: bottom; 
     z-index: -2;
 }
 
@@ -332,7 +332,7 @@ header ul {
     background: url(../img/specchi.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center; 
+	background-position: bottom; 
     z-index: -2;
 }
 
@@ -364,12 +364,12 @@ header ul {
     background: url(../img/vetro-camera.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center; 
+	background-position: bottom; 
     z-index: -2;
 }
 
 .eleven {
-    background: url(../img/vetraio.jpg);
+    background: url(../img/inferiate.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center; 
@@ -377,7 +377,7 @@ header ul {
 }
 
 .twelve {
-    background: url(../img/vetraio.jpg);
+    background: url(../img/tapparelle.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center; 
