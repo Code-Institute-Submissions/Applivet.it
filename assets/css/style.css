@@ -380,7 +380,7 @@ header ul {
 }
 
 .ten {
-    background: url(../img/vetro-camera.jpg);
+    background: url(../img/vetrocamera.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom; 
@@ -397,6 +397,30 @@ header ul {
 
 .twelve {
     background: url(../img/tapparelle.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+    z-index: -2;
+}
+
+.thirdteen {
+    background: url(../img/gattaiola.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+    z-index: -2;
+}
+
+.fourteen {
+    background: url(../img/molatura.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+    z-index: -2;
+}
+
+.fifteen {
+    background: url(../img/fiore-vetro.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center; 
