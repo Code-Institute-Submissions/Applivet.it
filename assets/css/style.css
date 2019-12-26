@@ -264,7 +264,6 @@ header ul {
 .tipi_interventi div {
     clear:both;
     height: 250px;
-    text-align: center;
     border-radius: 5px;
     width: 325px;
     transition: 0.4s;
@@ -290,11 +289,98 @@ header ul {
 }
 
 .one {
-    background: url(../img/unsplash.jpg);
+    background: url(../img/pronto-intervento.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center; 
+    z-index: -2;
+}
 
+.two {
+    background: url(../img/vetraio.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+    z-index: -2;
+}
+
+.three {
+    background: url(../img/vetrina-negozio.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+    z-index: -2;
+}
+
+.four {
+    background: url(../img/arredamento.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+    z-index: -2;
+}
+
+.five {
+    background: url(../img/box-doccia.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+    z-index: -2;
+}
+
+.six {
+    background: url(../img/specchi.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+    z-index: -2;
+}
+
+.seven {
+    background: url(../img/vetrata-interna.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+    z-index: -2;
+}
+
+.eight {
+    background: url(../img/scale.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+    z-index: -2;
+}
+
+.nine {
+    background: url(../img/balconi-vetro.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+    z-index: -2;
+}
+
+.ten {
+    background: url(../img/vetro-camera.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+    z-index: -2;
+}
+
+.eleven {
+    background: url(../img/vetraio.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+    z-index: -2;
+}
+
+.twelve {
+    background: url(../img/vetraio.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
     z-index: -2;
 }
 
