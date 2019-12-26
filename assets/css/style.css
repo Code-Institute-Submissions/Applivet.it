@@ -135,6 +135,8 @@ header ul {
     height: 200px;
     margin: 0;
     border-radius: 0;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 #card-two {
@@ -145,6 +147,8 @@ header ul {
     height: 200px;
     margin: 0;
     border-radius: 0;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 #card-three {
@@ -155,6 +159,8 @@ header ul {
     height: 200px;
     margin: 0;
     border-radius: 0;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 #to-contact {
@@ -179,6 +185,11 @@ header ul {
 .three-cards button:hover {
     background-color: #239072;
     transform: scale(0.9, 0.9);
+}
+
+#card-one:hover, #card-two:hover, #card-three:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
 }
 
 /**----------------DOVE OPERIAMO**/
@@ -254,6 +265,14 @@ header ul {
     padding: 5% 0 1%;
 }
 
+#tipi {
+    color: #213140;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 52px;
+    padding: 10%;
+}
+
 .tipi_interventi {
     z-index: 1;
     display: flex;
@@ -277,13 +296,13 @@ header ul {
 
 .tipi_interventi a {
     cursor: pointer;
-    margin: 20px auto;
+    margin: 40px auto;
     position:inherit;
-    text-align: center;
     text-decoration: none; 
 }
 
 .tipi_interventi p {
+    text-align: center;
     color: #213140;
     background: rgba(255, 255, 255, 0.7);
 }
@@ -405,7 +424,6 @@ header ul {
 
 .servizi_dedicati div {
     height: 100%;
-    text-align: center;
     border-radius: 5px;
     margin: 20px auto 5%;
     width: 325px;
@@ -421,6 +439,7 @@ header ul {
 .content {
     display: none;
     overflow: hidden;
+    text-align: left;
 }
 
 /**-----------------------contattaci**/
