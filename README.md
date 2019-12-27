@@ -55,7 +55,7 @@ All links will open in the same tab and to the bookmark created in the descripti
 This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 4, 5, 7: Chrome and Safari, iPad, Samsung Galaxy) to ensure compatibility and responsiveness. 
 
 ## Deployment 
-The website is hosted on GitHub pages, directly deployed from the master branch. Upon new commits to the master branchhe the website will update automatically. To run locally, cloning can be done to this repository directly into the chosen editor by pasting 'git clone https://circeco.github.io/Piero_resume/' into the terminal chosen. To cut ties with this GitHub repository, type 'git remote rm origin' into the terminal.
+The website is hosted on GitHub pages, directly deployed from the master branch. Upon new commits to the master branchhe the website will update automatically. To run locally, cloning can be done to this repository directly into the chosen editor by pasting 'git clone https://circeco.github.io/Applivet.it/' into the terminal chosen. To cut ties with this GitHub repository, type 'git remote rm origin' into the terminal.
 
 ## Credits
 
