@@ -407,7 +407,7 @@ header ul {
     background: url(../img/gattaiola.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center; 
+	background-position: top; 
     z-index: -2;
 }
 
@@ -451,11 +451,15 @@ header ul {
     border-radius: 5px;
     margin: 20px auto 5%;
     width: 325px;
-    cursor: pointer;
     background-color: white;
 }
 
-.active, .collapsible:hover {
+.servizi_dedicati a {
+    cursor: pointer;
+    color: #239072;
+}
+
+.collapsible:hover {
     color: #239072;
     border: none;
 }
