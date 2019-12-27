@@ -307,7 +307,7 @@ header ul {
     background: rgba(255, 255, 255, 0.7);
 }
 
-.one {
+#one, .one {
     background: url(../img/pronto-intervento.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
@@ -315,7 +315,7 @@ header ul {
     z-index: -2;
 }
 
-.two {
+#two, .two {
     background: url(../img/vetraio.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
@@ -323,7 +323,7 @@ header ul {
     z-index: -2;
 }
 
-.three {
+#three, .three {
     background: url(../img/vetrina-negozio.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
@@ -331,7 +331,7 @@ header ul {
     z-index: -2;
 }
 
-.four {
+#four, .four {
     background: url(../img/arredamento.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
@@ -339,7 +339,7 @@ header ul {
     z-index: -2;
 }
 
-.five {
+#five, .five {
     background: url(../img/box-doccia.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
@@ -347,7 +347,7 @@ header ul {
     z-index: -2;
 }
 
-.six {
+#six, .six {
     background: url(../img/specchi.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
@@ -355,7 +355,7 @@ header ul {
     z-index: -2;
 }
 
-.seven {
+#seven, .seven {
     background: url(../img/vetrata-interna.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
@@ -363,7 +363,7 @@ header ul {
     z-index: -2;
 }
 
-.eight {
+#eight, .eight {
     background: url(../img/scale.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
@@ -371,7 +371,7 @@ header ul {
     z-index: -2;
 }
 
-.nine {
+#nine, .nine {
     background: url(../img/balconi-vetro.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
@@ -379,7 +379,7 @@ header ul {
     z-index: -2;
 }
 
-.ten {
+#ten, .ten {
     background: url(../img/vetrocamera.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
@@ -387,7 +387,7 @@ header ul {
     z-index: -2;
 }
 
-.eleven {
+#eleven, .eleven {
     background: url(../img/inferiate.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
@@ -395,7 +395,7 @@ header ul {
     z-index: -2;
 }
 
-.twelve {
+#twelve, .twelve {
     background: url(../img/tapparelle.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
@@ -403,7 +403,7 @@ header ul {
     z-index: -2;
 }
 
-.thirdteen {
+#thirdteen, .thirdteen {
     background: url(../img/gattaiola.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
@@ -411,7 +411,7 @@ header ul {
     z-index: -2;
 }
 
-.fourteen {
+#fourteen, .fourteen {
     background: url(../img/molatura.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
@@ -419,7 +419,7 @@ header ul {
     z-index: -2;
 }
 
-.fifteen {
+#fifteen, .fifteen {
     background: url(../img/vetro-colorato.jpg);
     background-repeat: no-repeat;
 	background-size: cover;
