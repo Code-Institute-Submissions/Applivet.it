@@ -72,6 +72,7 @@ The several hover effects, the JavaScript scroll-down effect and many others hin
 Icons for contact are from (https://fontawesome.com)
 Font style is from (https://fonts.google.com)
 
+Pictures are from Pixabay and free to be used for commercial purpose
 
 
 

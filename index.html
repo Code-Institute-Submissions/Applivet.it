@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d32fba75b2.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="assets/script/applivet.js"></script>
 </head>
 <body>
     <header>
@@ -318,21 +317,6 @@
         </div>
         <p id="author" style="padding-top: 2%">@copyright 2020 APPLIVET - realizzazione sito <a href="https://circeco.github.io/Piero_resume/" style="color: #29AB87">PieroGrilli</a></p>
     </footer> 
-    <script>
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
-
-        for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.display === "block") {
-            content.style.display = "none";
-            } else {
-            content.style.display = "block";
-            }
-        });
-        }
-    </script>  
+    <script src="assets/script/applivet.js"></script>
 </body>
 </html>
